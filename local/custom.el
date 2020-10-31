@@ -22,8 +22,6 @@
 ;;    ido-max-prospects 6              ; don't spam my minibuffer
 ;;    ido-confirm-unique-completion t) ; wait for RET, even with unique completion
 
-;; (custom-set-faces
-;;  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#00ff00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 117 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
 
 (delete-selection-mode 0)                ;dont delete the selection with a keypress!!
 
@@ -177,12 +175,6 @@
 
 (setq auto-mode-alist
       (append '(("\\.\\(plt\\|gnuplot\\)$" . gnuplot-mode)) auto-mode-alist))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 (defun unfill-paragraph ()
   (interactive)
   (let ((fill-column (point-max)))

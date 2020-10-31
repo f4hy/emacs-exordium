@@ -2,7 +2,7 @@
 
 ;; a list of all configurations that must be loaded
 (defvar configs '(misc scheme c
-                       python ruby haskell cpp
+                       python ruby haskell cpp js
                        ibuffer auctex nxml org bindings))
 (defun require-config (config)
   (message "Loading %s..." config)

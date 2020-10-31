@@ -17,4 +17,8 @@
   (setq autopair-dont-activate t)
 )
 
+(setq ac-js2-external-libraries '("/home/f4hy/mysource/ScreepsAutocomplete"))
+(setq ac-js2-evaluate-calls t)
+
+
 (provide 'coding-config)
